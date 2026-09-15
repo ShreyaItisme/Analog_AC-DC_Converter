@@ -1,0 +1,10 @@
+* C:\Users\dilip\Documents\AC-DCconverter.asc
+V1 N001 0 SINE(0 1 5)
+D1 N001 N002 1SS390SM
+R1 N002 0 100k
+C1 N002 0 5m
+.model D D
+.lib C:\Users\dilip\AppData\Local\LTspice\lib\cmp\standard.dio
+.tran 10
+.backanno
+.end
